@@ -1,5 +1,19 @@
 # PGNs
 
+### Checkmate (white wins)
+
+```
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+
+1. e4 g5 2. Nc3 f5 3. Qh5# 1-0
+```
+
 ### Stalemate
 
 ```
