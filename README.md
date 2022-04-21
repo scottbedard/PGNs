@@ -16,6 +16,14 @@
 1. e4 g5 2. Nc3 f5 3. Qh5# 1-0
 ```
 
+### Draw (agreement)
+
+```
+[Result "1/2-1/2"]
+
+1. e4 e5 1/2-1/2
+```
+
 ### Draw (insufficient material)
 
 ```
@@ -78,4 +86,25 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 [Termination "white won by resignation"]
 
 1. e4 e5 1-0
+```
+
+### Timeout (black wins)
+
+```
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.04.21"]
+[Round "?"]
+[White "white"]
+[Black "black"]
+[Result "0-1"]
+[TimeControl "30"]
+[Termination "black won on time"]
+
+1. e4 {[%clk 0:00:28][%timestamp 20]} 1... e5 {[%clk 0:00:28.5][%timestamp 15]}
+2. Nf3 {[%clk 0:00:19.3][%timestamp 87]} 2... Nc6 {[%clk 0:00:26.2][%timestamp
+23]} 3. Bc4 {[%clk 0:00:12.5][%timestamp 68]} 3... Bc5 {[%clk
+0:00:21.7][%timestamp 45]} 4. h3 {[%clk 0:00:08.9][%timestamp 36]} 4... h6
+{[%clk 0:00:19.7][%timestamp 20]} 5. Nc3 {[%clk 0:00:06.7][%timestamp 22]} 5...
+Nf6 {[%clk 0:00:16.9][%timestamp 28]} 0-1
 ```
