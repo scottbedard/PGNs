@@ -68,6 +68,8 @@ Qxb8 Qh7 9. Qxc8 Kg6 10. Qe6 1/2-1/2
 ### Draw (50 move rule)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1/2-1/2"]
 
 1. Nc3 Nc6 2. Nf3 Nf6 3. Na4 Na5 4. Nh4 Nh5 5. Nc5 Nc4 6. Nf5 Nf4 7. Nh6 Nh3 8.
