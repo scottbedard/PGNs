@@ -72,8 +72,10 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "0-1"]
-[Termination "black won by resignation"]
+[Termination "Jill won by resignation"]
 
 1. e4 e5 0-1
 ```
@@ -82,8 +84,10 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 ### Resignation (white wins)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1-0"]
-[Termination "white won by resignation"]
+[Termination "Jack won by resignation"]
 
 1. e4 e5 1-0
 ```
@@ -91,20 +95,30 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 ### Timeout (black wins)
 
 ```
-[Event "Live Chess"]
-[Site "Chess.com"]
-[Date "2022.04.21"]
 [Round "?"]
-[White "white"]
-[Black "black"]
+[White "Jack"]
+[Black "Jill"]
 [Result "0-1"]
 [TimeControl "30"]
-[Termination "black won on time"]
+[Termination "Jill won on time"]
 
-1. e4 {[%clk 0:00:28][%timestamp 20]} 1... e5 {[%clk 0:00:28.5][%timestamp 15]}
-2. Nf3 {[%clk 0:00:19.3][%timestamp 87]} 2... Nc6 {[%clk 0:00:26.2][%timestamp
-23]} 3. Bc4 {[%clk 0:00:12.5][%timestamp 68]} 3... Bc5 {[%clk
-0:00:21.7][%timestamp 45]} 4. h3 {[%clk 0:00:08.9][%timestamp 36]} 4... h6
-{[%clk 0:00:19.7][%timestamp 20]} 5. Nc3 {[%clk 0:00:06.7][%timestamp 22]} 5...
-Nf6 {[%clk 0:00:16.9][%timestamp 28]} 0-1
+1. e4 {[%clk 0:00:23.2][%timestamp 68]} 1... e5 {[%clk 0:00:28][%timestamp 20]}
+2. f4 {[%clk 0:00:16.3][%timestamp 69]} 2... f5 {[%clk 0:00:26.1][%timestamp
+19]} 3. g4 {[%clk 0:00:09.2][%timestamp 71]} 3... g5 {[%clk
+0:00:24.5][%timestamp 16]} 0-1
+```
+
+### Timeout (white wins)
+
+```
+[White "Jack"]
+[Black "Jill"]
+[Result "1-0"]
+[TimeControl "30"]
+[Termination "Jack won on time"]
+
+1. e4 {[%clk 0:00:26.7][%timestamp 33]} 1... e5 {[%clk 0:00:20.9][%timestamp
+91]} 2. d4 {[%clk 0:00:24.3][%timestamp 24]} 2... d5 {[%clk 0:00:14][%timestamp
+69]} 3. c4 {[%clk 0:00:22.9][%timestamp 14]} 3... c5 {[%clk
+0:00:07.5][%timestamp 65]} 4. b4 {[%clk 0:00:21.3][%timestamp 16]} 1-0
 ```
