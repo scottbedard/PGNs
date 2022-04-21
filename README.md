@@ -1,6 +1,6 @@
 # PGNs
 
-### Checkmate (black wins)
+#### Checkmate (black wins)
 
 ```
 [Result "0-1"]
@@ -8,7 +8,7 @@
 1. f3 e5 2. g4 Qh4# 0-1
 ```
 
-### Checkmate (white wins)
+#### Checkmate (white wins)
 
 ```
 [Result "1-0"]
@@ -16,7 +16,7 @@
 1. e4 g5 2. Nc3 f5 3. Qh5# 1-0
 ```
 
-### Draw (repetition)
+#### Draw (repetition)
 
 ```
 [Result "1/2-1/2"]
@@ -24,7 +24,7 @@
 1. Nf3 Nf6 2. Ng1 Ng8 3. Nf3 Nf6 4. Ng1 Ng8 1/2-1/2
 ```
 
-### Draw (stalemate)
+#### Draw (stalemate)
 
 ```
 [Result "1/2-1/2"]
@@ -33,7 +33,7 @@
 Qxb8 Qh7 9. Qxc8 Kg6 10. Qe6 1/2-1/2
 ```
 
-### Draw (50 move rule)
+#### Draw (50 move rule)
 
 ```
 [Result "1/2-1/2"]
@@ -48,7 +48,7 @@ Nb6 41. Nb3 Nh6 42. Nec5 Nd5 43. Na5 Nf5 44. Ne4 Nh4 45. Nc6 Nf6 46. Ng5 Ng6 47.
 Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 ```
 
-### Resignation (black wins)
+#### Resignation (black wins)
 
 
 ```
@@ -57,6 +57,9 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 
 1. e4 e5 0-1
 ```
+
+
+#### Resignation (white wins)
 
 ```
 [Result "1-0"]
