@@ -3,6 +3,8 @@
 ### Checkmate (black wins)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "0-1"]
 
 1. f3 e5 2. g4 Qh4# 0-1
@@ -11,6 +13,8 @@
 ### Checkmate (white wins)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1-0"]
 
 1. e4 g5 2. Nc3 f5 3. Qh5# 1-0
@@ -19,6 +23,8 @@
 ### Draw (agreement)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1/2-1/2"]
 
 1. e4 e5 1/2-1/2
@@ -27,6 +33,8 @@
 ### Draw (insufficient material)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1/2-1/2"]
 
 1. a4 b5 2. b4 c5 3. c4 d5 4. d4 e5 5. e4 f5 6. f4 g5 7. g4 h5 8. axb5 cxb4 9.
@@ -39,6 +47,8 @@ Ne4 27. Ng5 Nxg5 1/2-1/2
 ### Draw (repetition)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1/2-1/2"]
 
 1. Nf3 Nf6 2. Ng1 Ng8 3. Nf3 Nf6 4. Ng1 Ng8 1/2-1/2
@@ -47,6 +57,8 @@ Ne4 27. Ng5 Nxg5 1/2-1/2
 ### Draw (stalemate)
 
 ```
+[White "Jack"]
+[Black "Jill"]
 [Result "1/2-1/2"]
 
 1. e3 a5 2. Qh5 Ra6 3. Qxa5 h5 4. h4 Rah6 5. Qxc7 f6 6. Qxd7+ Kf7 7. Qxb7 Qd3 8.
@@ -95,7 +107,6 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 ### Timeout (black wins)
 
 ```
-[Round "?"]
 [White "Jack"]
 [Black "Jill"]
 [Result "0-1"]
