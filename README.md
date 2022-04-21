@@ -1,6 +1,6 @@
 # PGNs
 
-#### Checkmate (black wins)
+### Checkmate (black wins)
 
 ```
 [Result "0-1"]
@@ -8,7 +8,7 @@
 1. f3 e5 2. g4 Qh4# 0-1
 ```
 
-#### Checkmate (white wins)
+### Checkmate (white wins)
 
 ```
 [Result "1-0"]
@@ -16,7 +16,19 @@
 1. e4 g5 2. Nc3 f5 3. Qh5# 1-0
 ```
 
-#### Draw (repetition)
+### Draw (insufficient material)
+
+```
+[Result "1/2-1/2"]
+
+1. a4 b5 2. b4 c5 3. c4 d5 4. d4 e5 5. e4 f5 6. f4 g5 7. g4 h5 8. axb5 cxb4 9.
+cxd5 exd4 10. exf5 gxf4 11. gxh5 Bxf5 12. Bxf4 Qxd5 13. Qxd4 Rxh5 14. Rxa7 Rxa7
+15. Qxa7 Qxb5 16. Qxb8+ Qxb8 17. Bxb8 Bd3 18. Bxd3 Rxh2 19. Rxh2 Bd6 20. Nf3
+Bxh2 21. Bxh2 Nf6 22. Nc3 bxc3 23. Be4 Nxe4 24. Bd6 Nxd6 25. Kd1 c2+ 26. Kxc2
+Ne4 27. Ng5 Nxg5 1/2-1/2
+```
+
+### Draw (repetition)
 
 ```
 [Result "1/2-1/2"]
@@ -24,7 +36,7 @@
 1. Nf3 Nf6 2. Ng1 Ng8 3. Nf3 Nf6 4. Ng1 Ng8 1/2-1/2
 ```
 
-#### Draw (stalemate)
+### Draw (stalemate)
 
 ```
 [Result "1/2-1/2"]
@@ -33,7 +45,7 @@
 Qxb8 Qh7 9. Qxc8 Kg6 10. Qe6 1/2-1/2
 ```
 
-#### Draw (50 move rule)
+### Draw (50 move rule)
 
 ```
 [Result "1/2-1/2"]
@@ -48,7 +60,7 @@ Nb6 41. Nb3 Nh6 42. Nec5 Nd5 43. Na5 Nf5 44. Ne4 Nh4 45. Nc6 Nf6 46. Ng5 Ng6 47.
 Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 ```
 
-#### Resignation (black wins)
+### Resignation (black wins)
 
 
 ```
@@ -59,7 +71,7 @@ Ne5 Ng4 48. Ne6 Nh4 49. Nc4 Ne5 50. Ne3 Nf5 1/2-1/2
 ```
 
 
-#### Resignation (white wins)
+### Resignation (white wins)
 
 ```
 [Result "1-0"]
