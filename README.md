@@ -28,6 +28,20 @@
 1. e4 g5 2. Nc3 f5 3. Qh5# 1-0
 ```
 
+### Draw (repetition)
+
+```
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1/2-1/2"]
+
+1. Nf3 Nf6 2. Ng1 Ng8 3. Nf3 Nf6 4. Ng1 Ng8 1/2-1/2
+```
+
 ### Stalemate
 
 ```
