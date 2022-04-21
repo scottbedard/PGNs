@@ -1,5 +1,19 @@
 # PGNs
 
+### Checkmate (black wins)
+
+```
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+
+1. f3 e5 2. g4 Qh4# 0-1
+```
+
 ### Checkmate (white wins)
 
 ```
@@ -24,9 +38,6 @@
 [White "?"]
 [Black "?"]
 [Result "1/2-1/2"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO ""]
 
 1. e3 a5 2. Qh5 Ra6 3. Qxa5 h5 4. h4 Rah6 5. Qxc7 f6 6. Qxd7+ Kf7 7. Qxb7 Qd3 8.
 Qxb8 Qh7 9. Qxc8 Kg6 10. Qe6 1/2-1/2
